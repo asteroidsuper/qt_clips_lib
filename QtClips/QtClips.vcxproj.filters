@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="clips_core">
+      <UniqueIdentifier>{bc664642-b9c9-4025-8182-d00cbf2af38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clips_core\headers">
+      <UniqueIdentifier>{1da47585-0d7d-4775-822d-ec3250586f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clips_core\sources">
+      <UniqueIdentifier>{c89249ff-58a5-43b7-bee5-ff3e562f3731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{85839ca4-dc54-4064-be39-1c6525378abd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{503293fc-f8cd-4dfe-9e83-e5a8582f34c4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clips_core\agenda.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\analysis.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\argacces.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\bload.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\bmathfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\bsave.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\classcom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\classexm.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\classfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\classinf.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\classini.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\classpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\clsltpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\commline.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\conscomp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\constrct.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\constrnt.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\crstrtgy.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrcbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrccom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrcpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrnbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrnchk.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrncmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrnops.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrnpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\cstrnutl.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\default.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\defins.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\developr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffctbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffctbsc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffctcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffctdef.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffctpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffnxbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffnxcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffnxexe.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffnxfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dffnxpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dfinsbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\dfinscmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\drive.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\emathfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\engine.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\envrnmnt.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\evaluatn.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\expressn.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\exprnbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\exprnops.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\exprnpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\extnfunc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factbld.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factcom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factgen.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\facthsh.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factlhs.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factmch.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factmngr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factprt.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factqpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factqury.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factrete.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\factrhs.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\filecom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\filertr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\generate.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\genrcbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\genrccmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\genrccom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\genrcexe.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\genrcfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\genrcpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\globlbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\globlbsc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\globlcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\globlcom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\globldef.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\globlpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\immthpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\incrrset.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\inherpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\inscom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insfile.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insmngr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insmoddp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insmult.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\inspsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insquery.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\insqypsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\iofun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\lgcldpnd.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\main.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\memalloc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\miscfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\modulbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\modulbsc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\modulcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\moduldef.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\modulpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\modulutl.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\msgcom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\msgfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\msgpass.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\msgpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\multifld.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\multifun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objrtbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objrtbld.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objrtcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objrtfnx.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objrtgen.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\objrtmch.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\parsefun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\pattern.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\pprint.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\prccode.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\prcdrfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\prcdrpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\prdctfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\prntutil.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\proflfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\reorder.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\reteutil.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\retract.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\router.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulebin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulebld.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulebsc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulecmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulecom.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulecstr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\ruledef.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\ruledlt.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulelhs.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\rulepsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\scanner.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\sortfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\strngfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\strngrtr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\symblbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\symblcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\symbol.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\sysdep.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\textpro.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltbin.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltbsc.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltcmp.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltdef.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltfun.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltlhs.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltpsr.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltrhs.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\tmpltutl.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\userdata.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\userfunctions.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\utility.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clips_core\watch.c">
+      <Filter>clips_core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="data_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clips_core\agenda.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\analysis.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\argacces.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\bload.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\bmathfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\bsave.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\classcom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\classexm.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\classfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\classinf.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\classini.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\classpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\clips.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\clsltpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\commline.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\conscomp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\constant.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\constrct.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\constrnt.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\crstrtgy.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrcbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrccmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrccom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrcpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrnbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrnchk.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrncmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrnops.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrnpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\cstrnutl.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\default.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\defins.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\developr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffctbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffctbsc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffctcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffctdef.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffctpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffnxbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffnxcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffnxexe.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffnxfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dffnxpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dfinsbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\dfinscmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\drive.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\emathfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\engine.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\envrnmnt.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\evaluatn.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\expressn.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\exprnbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\exprnops.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\exprnpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\extnfunc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factbld.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factcom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factgen.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\facthsh.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factlhs.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factmch.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factmngr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factprt.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factqpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factqury.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factrete.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\factrhs.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\filecom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\filertr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\generate.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\genrcbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\genrccmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\genrccom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\genrcexe.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\genrcfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\genrcpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\globlbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\globlbsc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\globlcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\globlcom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\globldef.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\globlpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\immthpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\incrrset.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\inherpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\inscom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insfile.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insmngr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insmoddp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insmult.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\inspsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insquery.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\insqypsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\iofun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\lgcldpnd.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\match.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\memalloc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\miscfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\modulbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\modulbsc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\modulcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\moduldef.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\modulpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\modulutl.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\msgcom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\msgfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\msgpass.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\msgpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\multifld.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\multifun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\network.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\object.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objrtbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objrtbld.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objrtcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objrtfnx.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objrtgen.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\objrtmch.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\parsefun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\pattern.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\pprint.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\prccode.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\prcdrfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\prcdrpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\prdctfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\prntutil.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\proflfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\reorder.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\reteutil.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\retract.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\router.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulebin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulebld.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulebsc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulecmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulecom.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulecstr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\ruledef.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\ruledlt.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulelhs.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\rulepsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\scanner.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\setup.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\sortfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\strngfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\strngrtr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\symblbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\symblcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\symbol.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\sysdep.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\textpro.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltbin.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltbsc.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltcmp.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltdef.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltfun.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltlhs.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltpsr.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltrhs.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\tmpltutl.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\userdata.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\usrsetup.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\utility.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_core\watch.h">
+      <Filter>clips_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="data_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clips_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

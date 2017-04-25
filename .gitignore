@@ -1,0 +1,5 @@
+*.opendb
+*.db
+*.obj
+libs
+QtClips/x64

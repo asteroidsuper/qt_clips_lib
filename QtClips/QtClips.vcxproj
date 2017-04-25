@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)libs\</OutDir>
+    <IncludePath>clips_core;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)d</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)libs\</OutDir>
+    <IncludePath>clips_core;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_CORE_LIB;QTCLIPS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_CORE_LIB;QTCLIPS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QTCLIPS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QTCLIPS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="clips_core\agenda.c" />
+    <ClCompile Include="clips_core\analysis.c" />
+    <ClCompile Include="clips_core\argacces.c" />
+    <ClCompile Include="clips_core\bload.c" />
+    <ClCompile Include="clips_core\bmathfun.c" />
+    <ClCompile Include="clips_core\bsave.c" />
+    <ClCompile Include="clips_core\classcom.c" />
+    <ClCompile Include="clips_core\classexm.c" />
+    <ClCompile Include="clips_core\classfun.c" />
+    <ClCompile Include="clips_core\classinf.c" />
+    <ClCompile Include="clips_core\classini.c" />
+    <ClCompile Include="clips_core\classpsr.c" />
+    <ClCompile Include="clips_core\clsltpsr.c" />
+    <ClCompile Include="clips_core\commline.c" />
+    <ClCompile Include="clips_core\conscomp.c" />
+    <ClCompile Include="clips_core\constrct.c" />
+    <ClCompile Include="clips_core\constrnt.c" />
+    <ClCompile Include="clips_core\crstrtgy.c" />
+    <ClCompile Include="clips_core\cstrcbin.c" />
+    <ClCompile Include="clips_core\cstrccom.c" />
+    <ClCompile Include="clips_core\cstrcpsr.c" />
+    <ClCompile Include="clips_core\cstrnbin.c" />
+    <ClCompile Include="clips_core\cstrnchk.c" />
+    <ClCompile Include="clips_core\cstrncmp.c" />
+    <ClCompile Include="clips_core\cstrnops.c" />
+    <ClCompile Include="clips_core\cstrnpsr.c" />
+    <ClCompile Include="clips_core\cstrnutl.c" />
+    <ClCompile Include="clips_core\default.c" />
+    <ClCompile Include="clips_core\defins.c" />
+    <ClCompile Include="clips_core\developr.c" />
+    <ClCompile Include="clips_core\dffctbin.c" />
+    <ClCompile Include="clips_core\dffctbsc.c" />
+    <ClCompile Include="clips_core\dffctcmp.c" />
+    <ClCompile Include="clips_core\dffctdef.c" />
+    <ClCompile Include="clips_core\dffctpsr.c" />
+    <ClCompile Include="clips_core\dffnxbin.c" />
+    <ClCompile Include="clips_core\dffnxcmp.c" />
+    <ClCompile Include="clips_core\dffnxexe.c" />
+    <ClCompile Include="clips_core\dffnxfun.c" />
+    <ClCompile Include="clips_core\dffnxpsr.c" />
+    <ClCompile Include="clips_core\dfinsbin.c" />
+    <ClCompile Include="clips_core\dfinscmp.c" />
+    <ClCompile Include="clips_core\drive.c" />
+    <ClCompile Include="clips_core\emathfun.c" />
+    <ClCompile Include="clips_core\engine.c" />
+    <ClCompile Include="clips_core\envrnmnt.c" />
+    <ClCompile Include="clips_core\evaluatn.c" />
+    <ClCompile Include="clips_core\expressn.c" />
+    <ClCompile Include="clips_core\exprnbin.c" />
+    <ClCompile Include="clips_core\exprnops.c" />
+    <ClCompile Include="clips_core\exprnpsr.c" />
+    <ClCompile Include="clips_core\extnfunc.c" />
+    <ClCompile Include="clips_core\factbin.c" />
+    <ClCompile Include="clips_core\factbld.c" />
+    <ClCompile Include="clips_core\factcmp.c" />
+    <ClCompile Include="clips_core\factcom.c" />
+    <ClCompile Include="clips_core\factfun.c" />
+    <ClCompile Include="clips_core\factgen.c" />
+    <ClCompile Include="clips_core\facthsh.c" />
+    <ClCompile Include="clips_core\factlhs.c" />
+    <ClCompile Include="clips_core\factmch.c" />
+    <ClCompile Include="clips_core\factmngr.c" />
+    <ClCompile Include="clips_core\factprt.c" />
+    <ClCompile Include="clips_core\factqpsr.c" />
+    <ClCompile Include="clips_core\factqury.c" />
+    <ClCompile Include="clips_core\factrete.c" />
+    <ClCompile Include="clips_core\factrhs.c" />
+    <ClCompile Include="clips_core\filecom.c" />
+    <ClCompile Include="clips_core\filertr.c" />
+    <ClCompile Include="clips_core\generate.c" />
+    <ClCompile Include="clips_core\genrcbin.c" />
+    <ClCompile Include="clips_core\genrccmp.c" />
+    <ClCompile Include="clips_core\genrccom.c" />
+    <ClCompile Include="clips_core\genrcexe.c" />
+    <ClCompile Include="clips_core\genrcfun.c" />
+    <ClCompile Include="clips_core\genrcpsr.c" />
+    <ClCompile Include="clips_core\globlbin.c" />
+    <ClCompile Include="clips_core\globlbsc.c" />
+    <ClCompile Include="clips_core\globlcmp.c" />
+    <ClCompile Include="clips_core\globlcom.c" />
+    <ClCompile Include="clips_core\globldef.c" />
+    <ClCompile Include="clips_core\globlpsr.c" />
+    <ClCompile Include="clips_core\immthpsr.c" />
+    <ClCompile Include="clips_core\incrrset.c" />
+    <ClCompile Include="clips_core\inherpsr.c" />
+    <ClCompile Include="clips_core\inscom.c" />
+    <ClCompile Include="clips_core\insfile.c" />
+    <ClCompile Include="clips_core\insfun.c" />
+    <ClCompile Include="clips_core\insmngr.c" />
+    <ClCompile Include="clips_core\insmoddp.c" />
+    <ClCompile Include="clips_core\insmult.c" />
+    <ClCompile Include="clips_core\inspsr.c" />
+    <ClCompile Include="clips_core\insquery.c" />
+    <ClCompile Include="clips_core\insqypsr.c" />
+    <ClCompile Include="clips_core\iofun.c" />
+    <ClCompile Include="clips_core\lgcldpnd.c" />
+    <ClCompile Include="clips_core\main.c" />
+    <ClCompile Include="clips_core\memalloc.c" />
+    <ClCompile Include="clips_core\miscfun.c" />
+    <ClCompile Include="clips_core\modulbin.c" />
+    <ClCompile Include="clips_core\modulbsc.c" />
+    <ClCompile Include="clips_core\modulcmp.c" />
+    <ClCompile Include="clips_core\moduldef.c" />
+    <ClCompile Include="clips_core\modulpsr.c" />
+    <ClCompile Include="clips_core\modulutl.c" />
+    <ClCompile Include="clips_core\msgcom.c" />
+    <ClCompile Include="clips_core\msgfun.c" />
+    <ClCompile Include="clips_core\msgpass.c" />
+    <ClCompile Include="clips_core\msgpsr.c" />
+    <ClCompile Include="clips_core\multifld.c" />
+    <ClCompile Include="clips_core\multifun.c" />
+    <ClCompile Include="clips_core\objbin.c" />
+    <ClCompile Include="clips_core\objcmp.c" />
+    <ClCompile Include="clips_core\objrtbin.c" />
+    <ClCompile Include="clips_core\objrtbld.c" />
+    <ClCompile Include="clips_core\objrtcmp.c" />
+    <ClCompile Include="clips_core\objrtfnx.c" />
+    <ClCompile Include="clips_core\objrtgen.c" />
+    <ClCompile Include="clips_core\objrtmch.c" />
+    <ClCompile Include="clips_core\parsefun.c" />
+    <ClCompile Include="clips_core\pattern.c" />
+    <ClCompile Include="clips_core\pprint.c" />
+    <ClCompile Include="clips_core\prccode.c" />
+    <ClCompile Include="clips_core\prcdrfun.c" />
+    <ClCompile Include="clips_core\prcdrpsr.c" />
+    <ClCompile Include="clips_core\prdctfun.c" />
+    <ClCompile Include="clips_core\prntutil.c" />
+    <ClCompile Include="clips_core\proflfun.c" />
+    <ClCompile Include="clips_core\reorder.c" />
+    <ClCompile Include="clips_core\reteutil.c" />
+    <ClCompile Include="clips_core\retract.c" />
+    <ClCompile Include="clips_core\router.c" />
+    <ClCompile Include="clips_core\rulebin.c" />
+    <ClCompile Include="clips_core\rulebld.c" />
+    <ClCompile Include="clips_core\rulebsc.c" />
+    <ClCompile Include="clips_core\rulecmp.c" />
+    <ClCompile Include="clips_core\rulecom.c" />
+    <ClCompile Include="clips_core\rulecstr.c" />
+    <ClCompile Include="clips_core\ruledef.c" />
+    <ClCompile Include="clips_core\ruledlt.c" />
+    <ClCompile Include="clips_core\rulelhs.c" />
+    <ClCompile Include="clips_core\rulepsr.c" />
+    <ClCompile Include="clips_core\scanner.c" />
+    <ClCompile Include="clips_core\sortfun.c" />
+    <ClCompile Include="clips_core\strngfun.c" />
+    <ClCompile Include="clips_core\strngrtr.c" />
+    <ClCompile Include="clips_core\symblbin.c" />
+    <ClCompile Include="clips_core\symblcmp.c" />
+    <ClCompile Include="clips_core\symbol.c" />
+    <ClCompile Include="clips_core\sysdep.c" />
+    <ClCompile Include="clips_core\textpro.c" />
+    <ClCompile Include="clips_core\tmpltbin.c" />
+    <ClCompile Include="clips_core\tmpltbsc.c" />
+    <ClCompile Include="clips_core\tmpltcmp.c" />
+    <ClCompile Include="clips_core\tmpltdef.c" />
+    <ClCompile Include="clips_core\tmpltfun.c" />
+    <ClCompile Include="clips_core\tmpltlhs.c" />
+    <ClCompile Include="clips_core\tmpltpsr.c" />
+    <ClCompile Include="clips_core\tmpltrhs.c" />
+    <ClCompile Include="clips_core\tmpltutl.c" />
+    <ClCompile Include="clips_core\userdata.c" />
+    <ClCompile Include="clips_core\userfunctions.c" />
+    <ClCompile Include="clips_core\utility.c" />
+    <ClCompile Include="clips_core\watch.c" />
+    <ClCompile Include="data_object.cpp" />
+    <ClCompile Include="env.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clips_core\agenda.h" />
+    <ClInclude Include="clips_core\analysis.h" />
+    <ClInclude Include="clips_core\argacces.h" />
+    <ClInclude Include="clips_core\bload.h" />
+    <ClInclude Include="clips_core\bmathfun.h" />
+    <ClInclude Include="clips_core\bsave.h" />
+    <ClInclude Include="clips_core\classcom.h" />
+    <ClInclude Include="clips_core\classexm.h" />
+    <ClInclude Include="clips_core\classfun.h" />
+    <ClInclude Include="clips_core\classinf.h" />
+    <ClInclude Include="clips_core\classini.h" />
+    <ClInclude Include="clips_core\classpsr.h" />
+    <ClInclude Include="clips_core\clips.h" />
+    <ClInclude Include="clips_core\clsltpsr.h" />
+    <ClInclude Include="clips_core\commline.h" />
+    <ClInclude Include="clips_core\conscomp.h" />
+    <ClInclude Include="clips_core\constant.h" />
+    <ClInclude Include="clips_core\constrct.h" />
+    <ClInclude Include="clips_core\constrnt.h" />
+    <ClInclude Include="clips_core\crstrtgy.h" />
+    <ClInclude Include="clips_core\cstrcbin.h" />
+    <ClInclude Include="clips_core\cstrccmp.h" />
+    <ClInclude Include="clips_core\cstrccom.h" />
+    <ClInclude Include="clips_core\cstrcpsr.h" />
+    <ClInclude Include="clips_core\cstrnbin.h" />
+    <ClInclude Include="clips_core\cstrnchk.h" />
+    <ClInclude Include="clips_core\cstrncmp.h" />
+    <ClInclude Include="clips_core\cstrnops.h" />
+    <ClInclude Include="clips_core\cstrnpsr.h" />
+    <ClInclude Include="clips_core\cstrnutl.h" />
+    <ClInclude Include="clips_core\default.h" />
+    <ClInclude Include="clips_core\defins.h" />
+    <ClInclude Include="clips_core\developr.h" />
+    <ClInclude Include="clips_core\dffctbin.h" />
+    <ClInclude Include="clips_core\dffctbsc.h" />
+    <ClInclude Include="clips_core\dffctcmp.h" />
+    <ClInclude Include="clips_core\dffctdef.h" />
+    <ClInclude Include="clips_core\dffctpsr.h" />
+    <ClInclude Include="clips_core\dffnxbin.h" />
+    <ClInclude Include="clips_core\dffnxcmp.h" />
+    <ClInclude Include="clips_core\dffnxexe.h" />
+    <ClInclude Include="clips_core\dffnxfun.h" />
+    <ClInclude Include="clips_core\dffnxpsr.h" />
+    <ClInclude Include="clips_core\dfinsbin.h" />
+    <ClInclude Include="clips_core\dfinscmp.h" />
+    <ClInclude Include="clips_core\drive.h" />
+    <ClInclude Include="clips_core\emathfun.h" />
+    <ClInclude Include="clips_core\engine.h" />
+    <ClInclude Include="clips_core\envrnmnt.h" />
+    <ClInclude Include="clips_core\evaluatn.h" />
+    <ClInclude Include="clips_core\expressn.h" />
+    <ClInclude Include="clips_core\exprnbin.h" />
+    <ClInclude Include="clips_core\exprnops.h" />
+    <ClInclude Include="clips_core\exprnpsr.h" />
+    <ClInclude Include="clips_core\extnfunc.h" />
+    <ClInclude Include="clips_core\factbin.h" />
+    <ClInclude Include="clips_core\factbld.h" />
+    <ClInclude Include="clips_core\factcmp.h" />
+    <ClInclude Include="clips_core\factcom.h" />
+    <ClInclude Include="clips_core\factfun.h" />
+    <ClInclude Include="clips_core\factgen.h" />
+    <ClInclude Include="clips_core\facthsh.h" />
+    <ClInclude Include="clips_core\factlhs.h" />
+    <ClInclude Include="clips_core\factmch.h" />
+    <ClInclude Include="clips_core\factmngr.h" />
+    <ClInclude Include="clips_core\factprt.h" />
+    <ClInclude Include="clips_core\factqpsr.h" />
+    <ClInclude Include="clips_core\factqury.h" />
+    <ClInclude Include="clips_core\factrete.h" />
+    <ClInclude Include="clips_core\factrhs.h" />
+    <ClInclude Include="clips_core\filecom.h" />
+    <ClInclude Include="clips_core\filertr.h" />
+    <ClInclude Include="clips_core\generate.h" />
+    <ClInclude Include="clips_core\genrcbin.h" />
+    <ClInclude Include="clips_core\genrccmp.h" />
+    <ClInclude Include="clips_core\genrccom.h" />
+    <ClInclude Include="clips_core\genrcexe.h" />
+    <ClInclude Include="clips_core\genrcfun.h" />
+    <ClInclude Include="clips_core\genrcpsr.h" />
+    <ClInclude Include="clips_core\globlbin.h" />
+    <ClInclude Include="clips_core\globlbsc.h" />
+    <ClInclude Include="clips_core\globlcmp.h" />
+    <ClInclude Include="clips_core\globlcom.h" />
+    <ClInclude Include="clips_core\globldef.h" />
+    <ClInclude Include="clips_core\globlpsr.h" />
+    <ClInclude Include="clips_core\immthpsr.h" />
+    <ClInclude Include="clips_core\incrrset.h" />
+    <ClInclude Include="clips_core\inherpsr.h" />
+    <ClInclude Include="clips_core\inscom.h" />
+    <ClInclude Include="clips_core\insfile.h" />
+    <ClInclude Include="clips_core\insfun.h" />
+    <ClInclude Include="clips_core\insmngr.h" />
+    <ClInclude Include="clips_core\insmoddp.h" />
+    <ClInclude Include="clips_core\insmult.h" />
+    <ClInclude Include="clips_core\inspsr.h" />
+    <ClInclude Include="clips_core\insquery.h" />
+    <ClInclude Include="clips_core\insqypsr.h" />
+    <ClInclude Include="clips_core\iofun.h" />
+    <ClInclude Include="clips_core\lgcldpnd.h" />
+    <ClInclude Include="clips_core\match.h" />
+    <ClInclude Include="clips_core\memalloc.h" />
+    <ClInclude Include="clips_core\miscfun.h" />
+    <ClInclude Include="clips_core\modulbin.h" />
+    <ClInclude Include="clips_core\modulbsc.h" />
+    <ClInclude Include="clips_core\modulcmp.h" />
+    <ClInclude Include="clips_core\moduldef.h" />
+    <ClInclude Include="clips_core\modulpsr.h" />
+    <ClInclude Include="clips_core\modulutl.h" />
+    <ClInclude Include="clips_core\msgcom.h" />
+    <ClInclude Include="clips_core\msgfun.h" />
+    <ClInclude Include="clips_core\msgpass.h" />
+    <ClInclude Include="clips_core\msgpsr.h" />
+    <ClInclude Include="clips_core\multifld.h" />
+    <ClInclude Include="clips_core\multifun.h" />
+    <ClInclude Include="clips_core\network.h" />
+    <ClInclude Include="clips_core\objbin.h" />
+    <ClInclude Include="clips_core\objcmp.h" />
+    <ClInclude Include="clips_core\object.h" />
+    <ClInclude Include="clips_core\objrtbin.h" />
+    <ClInclude Include="clips_core\objrtbld.h" />
+    <ClInclude Include="clips_core\objrtcmp.h" />
+    <ClInclude Include="clips_core\objrtfnx.h" />
+    <ClInclude Include="clips_core\objrtgen.h" />
+    <ClInclude Include="clips_core\objrtmch.h" />
+    <ClInclude Include="clips_core\parsefun.h" />
+    <ClInclude Include="clips_core\pattern.h" />
+    <ClInclude Include="clips_core\pprint.h" />
+    <ClInclude Include="clips_core\prccode.h" />
+    <ClInclude Include="clips_core\prcdrfun.h" />
+    <ClInclude Include="clips_core\prcdrpsr.h" />
+    <ClInclude Include="clips_core\prdctfun.h" />
+    <ClInclude Include="clips_core\prntutil.h" />
+    <ClInclude Include="clips_core\proflfun.h" />
+    <ClInclude Include="clips_core\reorder.h" />
+    <ClInclude Include="clips_core\reteutil.h" />
+    <ClInclude Include="clips_core\retract.h" />
+    <ClInclude Include="clips_core\router.h" />
+    <ClInclude Include="clips_core\rulebin.h" />
+    <ClInclude Include="clips_core\rulebld.h" />
+    <ClInclude Include="clips_core\rulebsc.h" />
+    <ClInclude Include="clips_core\rulecmp.h" />
+    <ClInclude Include="clips_core\rulecom.h" />
+    <ClInclude Include="clips_core\rulecstr.h" />
+    <ClInclude Include="clips_core\ruledef.h" />
+    <ClInclude Include="clips_core\ruledlt.h" />
+    <ClInclude Include="clips_core\rulelhs.h" />
+    <ClInclude Include="clips_core\rulepsr.h" />
+    <ClInclude Include="clips_core\scanner.h" />
+    <ClInclude Include="clips_core\setup.h" />
+    <ClInclude Include="clips_core\sortfun.h" />
+    <ClInclude Include="clips_core\strngfun.h" />
+    <ClInclude Include="clips_core\strngrtr.h" />
+    <ClInclude Include="clips_core\symblbin.h" />
+    <ClInclude Include="clips_core\symblcmp.h" />
+    <ClInclude Include="clips_core\symbol.h" />
+    <ClInclude Include="clips_core\sysdep.h" />
+    <ClInclude Include="clips_core\textpro.h" />
+    <ClInclude Include="clips_core\tmpltbin.h" />
+    <ClInclude Include="clips_core\tmpltbsc.h" />
+    <ClInclude Include="clips_core\tmpltcmp.h" />
+    <ClInclude Include="clips_core\tmpltdef.h" />
+    <ClInclude Include="clips_core\tmpltfun.h" />
+    <ClInclude Include="clips_core\tmpltlhs.h" />
+    <ClInclude Include="clips_core\tmpltpsr.h" />
+    <ClInclude Include="clips_core\tmpltrhs.h" />
+    <ClInclude Include="clips_core\tmpltutl.h" />
+    <ClInclude Include="clips_core\userdata.h" />
+    <ClInclude Include="clips_core\usrsetup.h" />
+    <ClInclude Include="clips_core\utility.h" />
+    <ClInclude Include="clips_core\watch.h" />
+    <ClInclude Include="clips_types.h" />
+    <ClInclude Include="data_object.h" />
+    <ClInclude Include="env.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="msvc2015_64" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
