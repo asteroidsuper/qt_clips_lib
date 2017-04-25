@@ -9,7 +9,6 @@ extern "C" {
 }
 
 #include <QString>
-#include <qdebug.h>
 #include <QByteArray>
 
 using namespace qclips;
